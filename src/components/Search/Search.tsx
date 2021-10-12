@@ -16,7 +16,7 @@ export default function Search() {
   }
 
   function handleKeyStroke({ code }:any) {
-    if (code === 'Enter' && inputValue) {
+    if (code === 'Enter' && inputValue.trim()) {
       handleSubmit(inputValue);
     }
   }

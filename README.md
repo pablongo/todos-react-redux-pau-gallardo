@@ -1,7 +1,6 @@
 # Star wars assignment
 
 ## You can find in the app:
-*
 * Unit and component testing (Just one to demo)
 * Redux to handle local state
 * SOLID
