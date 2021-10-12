@@ -16,8 +16,7 @@ export default function Search() {
   }
 
   function handleKeyStroke({ code }:any) {
-    console.log('hola');
-    if (code === 'Enter') {
+    if (code === 'Enter' && inputValue) {
       handleSubmit(inputValue);
     }
   }
